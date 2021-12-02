@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ABE33AE27554E56009B1EE4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADF012227534AAC00915663 /* CoreBluetooth.framework */; };
 		1ADF010E2753498E00915663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF010D2753498E00915663 /* AppDelegate.swift */; };
 		1ADF01102753498E00915663 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF010F2753498E00915663 /* SceneDelegate.swift */; };
 		1ADF01122753498E00915663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF01112753498E00915663 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		1ADF01162753498F00915663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ADF01192753498F00915663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ADF011B2753498F00915663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADF012227534AAC00915663 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABE33AE27554E56009B1EE4 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				1ADF010C2753498E00915663 /* Bootstrapping */,
 				1ADF010B2753498E00915663 /* Products */,
+				1ADF012127534AAC00915663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +60,47 @@
 		1ADF010C2753498E00915663 /* Bootstrapping */ = {
 			isa = PBXGroup;
 			children = (
-				1ADF010D2753498E00915663 /* AppDelegate.swift */,
-				1ADF010F2753498E00915663 /* SceneDelegate.swift */,
-				1ADF01112753498E00915663 /* ViewController.swift */,
-				1ADF01132753498E00915663 /* Main.storyboard */,
+				1ADF012A27534B7500915663 /* UI */,
+				1ADF012C27534BB400915663 /* Delegates */,
 				1ADF01162753498F00915663 /* Assets.xcassets */,
-				1ADF01182753498F00915663 /* LaunchScreen.storyboard */,
 				1ADF011B2753498F00915663 /* Info.plist */,
+				1ADF010F2753498E00915663 /* SceneDelegate.swift */,
 			);
 			path = Bootstrapping;
+			sourceTree = "<group>";
+		};
+		1ADF012127534AAC00915663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF012227534AAC00915663 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ADF012A27534B7500915663 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF012B27534B7F00915663 /* Controllers */,
+				1ADF01112753498E00915663 /* ViewController.swift */,
+				1ADF01132753498E00915663 /* Main.storyboard */,
+				1ADF01182753498F00915663 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1ADF012B27534B7F00915663 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1ADF012C27534BB400915663 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1ADF010D2753498E00915663 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +331,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +360,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
