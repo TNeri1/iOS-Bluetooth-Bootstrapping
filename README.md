@@ -34,7 +34,7 @@ Languages use:
 * Bluetooth Low Energy in iOS Swift (Tony Gaitatzis - 2017)
 * [GitHub Repository by Tony Gaitatzis](https://github.com/BluetoothLowEnergyIniOSSwift)
 * [iOS Storyboards: Getting Started](https://www.raywenderlich.com/5055364-ios-storyboards-getting-started)
-* [iOS Storyboards in Xcode: The Ultimate Guide](hhttps://matteomanferdini.com/ios-storyboards-xcode/)
+* [iOS Storyboards in Xcode: The Ultimate Guide](https://matteomanferdini.com/ios-storyboards-xcode/)
 
 ### Future Work
 
